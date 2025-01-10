@@ -1,4 +1,4 @@
-import Navigation from "views/patterns/composition/SimpleComponents";
+import Navigation from "views/patterns/composition/ContainerComponents";
 
 const App = () => {
   return (
