@@ -1,11 +1,11 @@
-import Navigation from "views/patterns/composition/ContainerComponents";
+import SomeOutsideComponent from "views/patterns/children/RenderFunction";
 
 const App = () => {
   return (
     <>
       <p>Placeholder View</p>
       <div>
-        <Navigation />
+        <SomeOutsideComponent />
       </div>
     </>
   );

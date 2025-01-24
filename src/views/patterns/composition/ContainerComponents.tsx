@@ -24,13 +24,11 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
-
 /**
  *  When should we extract a component?
  *
  *    Rule #1: When the component is too big
- *    Rule #2: A component should "implement various things" or "composes various components together not both"
+ *    Rule #2: A component should "implement various things(in the div's)" or "composes various components together(as components)" not both
  *             Meaning in TopBar component
  *
  */
@@ -68,6 +66,8 @@ export const DecomposedJiraIssuePage = () => {
     </JiraPageLayout>
   );
 };
+
+export default DecomposedJiraIssuePage;
 
 /*
  * Reference:
