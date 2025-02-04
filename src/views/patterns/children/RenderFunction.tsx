@@ -28,7 +28,7 @@ const SomeOutsideComponent = () => {
   console.log("some outside component=>");
   return (
     <MovingComponent>
-      {() => <ChildComponent source="from some outside" />}
+      {() => <ChildComponent source="from some outside" />} 
     </MovingComponent>
   );
 };
