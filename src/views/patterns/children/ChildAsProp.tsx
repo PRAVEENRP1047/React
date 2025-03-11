@@ -15,6 +15,9 @@ const MovingComponent = ({ children }: { children: React.ReactNode }) => {
     >
       {children}
     </div>
+    /**
+     *  Why the {children} here didn't re-render on state change in this component ?
+     */
   );
 };
 
@@ -24,10 +27,6 @@ const SomeOtherComponent = () => {
     <MovingComponent>
       <ChildComponent />
     </MovingComponent>
-    /**
-     *  when used like this when parent's state change the child doesn't render because
-     *  children prop in react
-     * */
   );
 };
 
