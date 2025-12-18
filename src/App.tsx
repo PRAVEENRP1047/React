@@ -1,15 +1,5 @@
-import Memo from "views/APIs/memo";
-import UseMemo from "views/hooks/useMemo";
+import UseLayoutEffect from "views/useLayoutEffect";
 
-const App = () => {
-  return (
-    <>
-      <p>Placeholder View</p>
-      <div>
-        <UseMemo />
-      </div>
-    </>
-  );
-};
-
-export default App;
+export default function App() {
+  return <UseLayoutEffect />;
+}
